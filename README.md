@@ -8,12 +8,13 @@ PROBLEM
 Greet the user with a menu.  
 For now, the menu will have an introduction and a single option. It should look like the following:
 
-```Hello! Welcome to my Factorizer.  Please choose which version you would like to launch:
+```
+Hello! Welcome to my Factorizer.  Please choose which version you would like to launch:
 
 1) Non-Threaded Solution
 
 0) Quit
-'''
+```
 When the user hits 0 and presses enter, the program should terminate.
 
 When the user hits 1 and presses enter, you should be greeted with a new menu that says:
