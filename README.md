@@ -3,6 +3,8 @@
 Here we are dealing with one question and we will look up for solving the same problem in different ways.
 We will start with a non threaded solution first and will apply the concepts of concurrency and threads to the same problem with different parameters.
 
+## Non Threaded Solution
+
 PROBLEM
 
 Greet the user with a menu.  
