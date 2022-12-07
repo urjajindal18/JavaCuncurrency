@@ -44,3 +44,17 @@ You do not need to print these structures, but you should be able to access them
 You can then return to the menu so the user can input another number, or enter a number to return to the first menu.
 
 ## Threaded Unbounded Solution
+
+The unbounded threaded solution should sub divide the factorization work of each number into its own thread that gets executed.  The pseudo-code will look something like
+
+ 
+
+for each number from 2 to user_input as i
+
+-Generate a Runnable r that holds i
+
+-Generate a new Thread using r that is immediately started
+
+ 
+
+Every single integer from 2 to user_input should get its own thread.  Yes, that is inefficient, that's the point.
