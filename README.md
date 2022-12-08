@@ -51,9 +51,9 @@ The unbounded threaded solution should sub divide the factorization work of each
 
 for each number from 2 to user_input as i
 
--Generate a Runnable r that holds i
+*Generate a Runnable r that holds i
 
--Generate a new Thread using r that is immediately started
+*Generate a new Thread using r that is immediately started
 
  
 
